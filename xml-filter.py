@@ -10,7 +10,7 @@ def main() -> None:
     try:
         infile = ''.join(sys.argv[1])
         tag_to_search = ''.join(sys.argv[2])
-        outfile = ''.join(sys.argv[3])
+        target_path = ''.join(sys.argv[3])
 
         # Input
         tree = ET.parse(infile)
@@ -18,7 +18,7 @@ def main() -> None:
 
         # Output
         output_root = ET.Element(root.tag)
-        outfile_list = outfile.split('/')
+        outfile_list = target_path.split('/')
         path_to_outfile_list = outfile_list.copy()
         path_to_outfile_list.pop()
         path_to_outfile = '/'.join(path_to_outfile_list)
