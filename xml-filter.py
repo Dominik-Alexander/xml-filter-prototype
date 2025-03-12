@@ -6,7 +6,6 @@ import xml.etree.ElementTree as ET
 import xml.dom.minidom
 
 def main() -> None:
-    # TODO: Refactoring and better error/exception handling
     try:
         infile = ''.join(sys.argv[1])
         tag_to_search = ''.join(sys.argv[2])
