@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+  <item>
+    <foo></foo>
+    <baz></baz>
+    <bar></bar>
+  </item>
+  <item>
+    <foo></foo>
+    <baz></baz>
+  </item>
+  <item>
+    <baz></baz>
+    <bar></bar>
+  </item>
+  <item>
+    <foo></foo>
+    <bar></bar>
+  </item>
+  <item>
+    <baz></baz>
+    <bar></bar>
+  </item>
+  <item>
+  </item>
+  <item>
+  </item>
+  <item>
+  </item>
+  <item>
+  </item>
+  <item>
+  </item>
+  <item>
+  </item>
+  <item>
+  </item>
+</content>

@@ -10,6 +10,7 @@ It's pretty straightforward: <br>
 * Open up a terminal and run the following command: <br>
 ```python xml-filter.py <input_filepath.xml> <tag_to_search> <output_filepath.xml>```
 * That's it!
+* You can have a look at and run the ```demo.sh``` to see, how it works.
 
 <br>
 Remember, however, that the paths are relative to the current directory.

@@ -173,10 +173,12 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 
+# Input folder
 input/*
+!input/demo.xml
+
+# Output folder
 output/*
 
-# THIS thing, of course
+# THIS friggin' thing, of course
 .DS_Store
-
-
