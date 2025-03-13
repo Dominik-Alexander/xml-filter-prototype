@@ -6,6 +6,17 @@ import xml.etree.ElementTree as ET
 import xml.dom.minidom
 
 def main() -> None:
+    """
+    Entry point for the script.
+
+    This function takes in three parameters, the path to the input file, the
+    tag to search for, and the target path for the output file. It then parses
+    the input file, finds all elements with the given tag, and creates a new
+    XML tree with the found elements. It then writes the new tree to the target
+    path.
+
+    If any of the operations fail, it prints an error message and returns.
+    """
     try:
         infile = ''.join(sys.argv[1])
         tag_to_search = ''.join(sys.argv[2])
